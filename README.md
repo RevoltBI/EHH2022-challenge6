@@ -16,7 +16,7 @@ Early treatment is much cheaper and more effective for many diseases. In the cas
 
 # Structure of the repository
 
-* XXX TODO: Initial scripts
+* bigquery_sql folder - SQL queries used to prepare the data
 * preprocessing_pivoting.ipynb - Jupyter Notebook for preprocessing in final form that is used for training
 * targets.ipynb - Jupyter notebook for creating a file that finds patients with diagnose that we are searching for
 * train.py - The main script that creates model and perform the training and validation
@@ -30,5 +30,7 @@ Early treatment is much cheaper and more effective for many diseases. In the cas
 
 
 # Dataprocessing pipeline
-
+## Notional pipeline
 ![Pipeline](imgs/arch.jpg)
+## Service architecture
+![Service architecture](imgs/current_service_architecture.png)
